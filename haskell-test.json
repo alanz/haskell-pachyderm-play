@@ -1,0 +1,15 @@
+{
+  "pipeline": {
+    "name": "haskell-test"
+  },
+  "transform": {
+      "image": "alanz/simple-container",
+      "cmd":["simple"]
+  },
+  "input": {
+    "atom": {
+      "repo": "in",
+      "glob": "/*"
+    }
+  }
+}
